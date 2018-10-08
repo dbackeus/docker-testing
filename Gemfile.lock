@@ -54,6 +54,10 @@ GEM
     connection_pool (2.2.2)
     crass (1.0.4)
     debug_inspector (0.0.3)
+    dotenv (2.5.0)
+    dotenv-rails (2.5.0)
+      dotenv (= 2.5.0)
+      railties (>= 3.2, < 6.0)
     erubi (1.7.1)
     execjs (2.7.0)
     ffi (1.9.25)
@@ -184,6 +188,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3)
   byebug
+  dotenv-rails
   font-awesome-rails (~> 4.7)
   jbuilder (~> 2.5)
   jquery-rails (~> 4.3)

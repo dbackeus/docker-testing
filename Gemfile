@@ -56,6 +56,7 @@ gem 'font-awesome-rails', '~> 4.7'
 group :development, :test do
   # Call 'byebug' anywhere in your code to drop into a debugger console
   gem 'byebug', platform: :mri
+  gem "dotenv-rails"
 end
 
 group :test do
